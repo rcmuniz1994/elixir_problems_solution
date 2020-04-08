@@ -1,4 +1,4 @@
-defmodule Cha1 do
+defmodule Sol1 do
   def diff_set(input_list, k) do
     List.foldr(input_list, [], fn item, acc -> acc++[k-item] end)
     |> MapSet.new()
